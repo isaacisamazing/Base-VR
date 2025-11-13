@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Isaac's VR</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-entity environment="preset: tron; dressingAmount: 150; skyColor:blue; ground:flat"></a-entity>
+        <a-cylinder id="floor" position="0 0 0" radius="7.5" color="black" height="0.1"></a-cylinder>  
+        <a-box id="box1" position="0 1.473 4.907" rotation="0 0 0" scale="10 8 0.2" color="black"></a-box>
+        <a-box id="box2" position="0 1.473 -4.907" rotation="0 0 0" scale="10 8 0.2" color="black"></a-box>
+        <a-box id="box3" position="0 0 0" rotation="0 0 0" scale="10 8 0.2" color="black"></a-box>
+        <a-box id="box4" position="0 0 0" rotation="0 0 0" scale="10 8 0.2" color="black"></a-box>
+      </a-scene>
+</body>
+</html>
